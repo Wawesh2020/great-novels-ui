@@ -1,0 +1,5 @@
+# Ignore webpack config file
+webpack.dev.js
+
+# Ignore bundled code
+public

@@ -19,6 +19,6 @@ app.get('/api/novels/:identifier', getNovelByIdOrTitle)
 
 app.all('*', (request, response) => response.sendFile(path.resolve(__dirname, 'public', 'index.html')))
 
-app.listen(1337, () => {
-  console.log('Listening on port 1337...') // eslint-disable-line no-console
+app.listen(1339, () => {
+  console.log('Listening on port 1339...') // eslint-disable-line no-console
 })
